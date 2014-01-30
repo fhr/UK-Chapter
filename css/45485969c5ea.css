@@ -4980,9 +4980,10 @@ body {
   color: #333333;
   font-size: 14px;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
   background: #ffffff url('../img/bg-texture.png') top left repeat;
   -webkit-font-smoothing: antialiased;
+  position: absolute;
+
 }
 /*
   Typography
@@ -5097,7 +5098,7 @@ header + section {
 .home h2,
 .about-us h2 {
   font-family: 'HelveticaNeueW01-Thin', "Helvetica Neue", Arial, Helvetica, sans-serif;
-  font-size: 3.714285714em;
+  font-size: 3.2em;
   line-height: 1em;
   font-weight: normal;
   margin-bottom: 30px;
@@ -5164,8 +5165,8 @@ header + section {
 }
 .main-stage .carousel .carousel-content {
   position: absolute;
-  top: 90px;
-  left: 150px;
+  top: 30px;
+  left: 100px;
   z-index: 10;
 }
 .main-stage .carousel .carousel-content div.subject {
@@ -6822,11 +6823,11 @@ a.btn {
 	width: 550px;
 	height: 620px;
 	left: 55%;
-	top: 400px;
+	top: 622px;
 	padding: 0px;
 }
 #mc_embed_signup {
-	padding: 35px;
+	padding: 20px;
 	text-shadow: none;
 	color: rgb(51, 51, 51);
 }
@@ -7009,7 +7010,17 @@ label span
 	visibility:hidden;
 }
 	
+a.btn2 {
+	display:block;
+	width:228px;
+	height:49px;
+	background:url(/img/project.png) 0 0 no-repeat;
+	text-indent:-999em;	
+}
 	
+a.btn2:hover {
+	background:url(/img/project2.png) 0 -51px no-repeat;
+}	
 	
 	
 	
